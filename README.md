@@ -1,7 +1,7 @@
 - PayWiz - UPI Wallet Web Application
 
 ```jsx
-git clone https://github.com/ahamed-ajas/PayWiz
+git clone https://github.com/ahamed-ajas/PayWiz.git
 ```
 
 - npm install
@@ -10,7 +10,7 @@ git clone https://github.com/ahamed-ajas/PayWiz
 ```jsx
 docker run  -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
 ```
-- Create a 
+- Create a .env file
 - Copy over all .env.example files to .env
 - Update .env files everywhere with the right db url
 - Go to `packages/db`
